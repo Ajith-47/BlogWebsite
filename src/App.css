@@ -1,12 +1,13 @@
 *{
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
+
 }
 
 
 header{
     min-height: 10vh;
-   
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -24,6 +25,7 @@ header .header-logo a{
 
 header .header-navbar{
     margin-right: 30px;
+    font-size: 1.2rem;
 }
 
 header .header-navbar a{
@@ -48,12 +50,12 @@ body{
 
 
 main{
-    border: 2px solid black;
+/*    border: 2px solid black;         */
     min-height: 80vh;
 }
 
 footer{
-    border: 2px solid black;
+/*    border: 2px solid black;     */
     min-height: 10vh;
     position: sticky;
     top:100%;

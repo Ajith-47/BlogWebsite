@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+
+.Post{
+    max-width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 0.4fr 1.3fr;
+    margin-bottom: 2%;
+    transition-duration: 0.5s;
+    
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.Post:hover{
+    transform:scale(1.03);
+}
+
+
+
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+div.Post div.Post-text h3{
+    margin-bottom: 15px;
+}
+
+div.Post div.Post-text {
+    padding-left: 2%;
+}
